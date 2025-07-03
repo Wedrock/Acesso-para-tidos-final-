@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #003366;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    height: 30px;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    color: #E0E0E0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5da2d3;
+}
+
+
+.main-container {
+    border-top: 10px solid #003366;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 1rem; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    height: 30px;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    color: #E0E0E0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5da2d3;
+}
+
+.main-container {
+    border-top: 10px solid #003366;
+}
+
+.content-section {
+    display: flex;
+    max-width: 74rem;
+    margin: 0 auto;
+    gap: 2rem; 
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1; 
+}
+
+.section-title {
+    font-size: 48px;
+    color: #003366;
+    margin-bottom: 1.5rem;
+    font-weight: 650;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #3E7DBB;
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 51px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3b5f84;
+}
+
+.artigos-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f4f4f4;
+
+}
+
+.artigos-box {
+    width: calc(50dvw - 10em);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 66px; 
+    background-color: #2A5784; 
+    border-radius: 0 50px 50px 0;
+    color: #ffffff;
+    font-size: 24px; 
+    font-weight: 700; 
+    font-family: 'Nunito', sans-serif; 
+}
+.artigos-box span {
+    margin-right: 12rem; 
+}
+
+.artigos {
+    text-align: center;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap; 
+    padding: 50px; 
+}
+
+/* --- ESTILOS DO CARD --- */
+
+.card-wrapper {
+    width: 320px;
+    height: 480px;
+    position: relative; 
+}
+
+.card-sombra {
+    width: 100%;
+    height: 100%;
+    background-color: #7b9fc6; 
+    border-radius: 20px;
+    position: absolute;
+    top: -15px; 
+    left: 15px;  
+    z-index: 1; 
+}
+
+.card-conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #7b9fc6; 
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card-conteudo img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-conteudo h3 {
+    font-size: 18px;
+    color: #2b507a;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-conteudo p {
+    font-size: 14px;
+    line-height: 1.6;
+    flex-grow: 1; 
+    font-weight: 500;
+}
+
+.link-saiba-mais {
+    color: #2b507a;
+    text-decoration: none;
+    font-weight: 600;
+    align-self: flex-start; 
+}
+
+.btn-veja-mais {
+    background-color: #5884b8;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-veja-mais:hover {
+    background-color: #4a72a0;
+}
