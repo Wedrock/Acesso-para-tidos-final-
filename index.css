@@ -181,6 +181,7 @@ body {
     padding: 60px 0;
 }
 
+/* --- ESTILOS DO CARD --- */
 
 .cards-container {
     display: flex;
@@ -190,7 +191,6 @@ body {
     padding: 30px; 
 }
 
-/* --- ESTILOS DO CARD --- */
 
 .card-wrapper {
     width: 320px;
@@ -252,8 +252,9 @@ body {
     color: #2b507a;
     text-decoration: none;
     font-weight: 600;
-    align-self: flex-start; 
+    align-self: flex-end; 
 }
+
 
 .btn-veja-mais {
     background-color: #5884b8;
