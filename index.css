@@ -8,9 +8,10 @@ body {
     font-family: 'Nunito', sans-serif;
     color: #333;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
+/* --- ESTILOS DO Navbar --- */
 .header {
     background-color: #003366;
 }
@@ -49,6 +50,7 @@ body {
     color: #5da2d3;
 }
 
+/* --- ESTILOS DO CONTAINER PRINCIPAL --- */
 
 .main-container {
     border-top: 10px solid #003366;
@@ -161,7 +163,7 @@ body {
     height: 66px; 
     background-color: #2A5784; 
     border-radius: 0 50px 50px 0;
-    color: #ffffff;
+    color: #f4f4f4;
     font-size: 24px; 
     font-weight: 700; 
     font-family: 'Nunito', sans-serif; 
@@ -172,6 +174,8 @@ body {
 
 .artigos {
     text-align: center;
+    background-color: #f4f4f4;
+    padding: 60px 0;
 }
 
 
@@ -252,8 +256,8 @@ body {
     background-color: #5884b8;
     color: white;
     border: none;
-    border-radius: 50px;
-    padding: 12px 30px;
+    border-radius: 51px;
+    padding: 12px 60px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 15px;
@@ -262,4 +266,65 @@ body {
 
 .btn-veja-mais:hover {
     background-color: #4a72a0;
+}
+
+/* --- ESTILOS DA DENÚNCIA --- */
+
+.denuncia-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    flex-wrap: wrap; 
+}
+
+.denuncia-conteudo {
+    flex: 1; 
+    max-width: 500px; 
+    min-width: 300px; 
+}
+
+.denuncia-conteudo h2 {
+    font-size: 1.93rem; 
+    color: #0d2847; 
+    margin-top: 0;
+    margin-bottom: 1rem; 
+    font-weight: 600;
+}
+
+.denuncia-conteudo p {
+    font-size: 1.125rem; 
+    color: #000000; 
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.denuncia-botao {
+    display: inline-block;
+    background-color: #4682B4; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 35px;
+    border-radius: 50px; 
+    font-size: 1rem; 
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.denuncia-botao:hover {
+    background-color: #3a6d9a; 
+}
+
+.denuncia-imagem {
+    flex: 1; 
+    max-width: 550px;
+    min-width: 300px; 
+}
+
+.denuncia-imagem img {
+    width: 100%;
+    height: auto; 
+    display: block;
 }
