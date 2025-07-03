@@ -252,6 +252,11 @@ body {
     text-decoration: none;
     font-weight: 600;
     align-self: flex-end; 
+    transition: all 0.2s ease;
+}
+.link-saiba-mais:hover {
+    color: #1a3d5c; 
+    transform: translate(-5px, -5px);
 }
 
 
@@ -264,11 +269,12 @@ body {
     font-size: 16px;
     cursor: pointer;
     margin-top: 15px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .btn-veja-mais:hover {
     background-color: #4a72a0;
+    transform: translateY(-5px);
 }
 
 /* --- ESTILOS DA DENÚNCIA --- */
@@ -318,6 +324,7 @@ body {
 
 .denuncia-botao:hover {
     background-color: #3a6d9a; 
+    transform: translateY(-5px);
 }
 
 .denuncia-imagem {
