@@ -50,52 +50,7 @@ body {
     color: #5da2d3;
 }
 
-
-.main-container {
-    border-top: 10px solid #003366;
-    
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 0 1rem; 
-}
-
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.logo {
-    height: 30px;
-}
-
-.site-title {
-    font-size: 1.5rem;
-    color: #E0E0E0;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-
-.navbar-nav {
-    gap: 1.5rem;
-    font-weight: 700;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #5da2d3;
-}
-
 /* --- ESTILOS DO CONTAINER PRINCIPAL --- */
-
-.main-container {
-    border-top: 10px solid #003366;
-}
 
 .content-section {
     display: flex;
