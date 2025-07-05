@@ -50,7 +50,6 @@ body {
     color: #5da2d3;
 }
 
-/* --- ESTILOS DO CONTAINER PRINCIPAL --- */
 
 .main-container {
     border-top: 10px solid #003366;
@@ -91,6 +90,8 @@ body {
 .navbar-nav .nav-link:hover {
     color: #5da2d3;
 }
+
+/* --- ESTILOS DO CONTAINER PRINCIPAL --- */
 
 .main-container {
     border-top: 10px solid #003366;
@@ -337,4 +338,100 @@ body {
     width: 100%;
     height: auto; 
     display: block;
+}
+
+/* --- ESTILOS DO RODAPÉ --- */
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Nunito, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.footer-container, .footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+}
+
+.footer-legal {
+    margin-top: 30px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    border-color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-social img {
+    height: 18px;
+    width: 18px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-legal p {
+    margin: 0;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
 }
