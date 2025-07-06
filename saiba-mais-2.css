@@ -12,6 +12,7 @@ body {
 }
 
 
+/*--- ESTILOS DO CABEÇALHO ---*/
 .header {
     background-color: #003366;
 }
@@ -41,7 +42,6 @@ body {
     font-weight: 700;
 }
 
-/* A propriedade text-align: right; foi removida daqui */
 .navbar-nav {
     gap: 1.5rem;
     font-weight: 700;
@@ -51,6 +51,7 @@ body {
     color: #5da2d3;
 }
 
+/*--- ESTILOS DO BANNER E ARTIGOS---*/
 
 .main-container {
     max-width: 1200px;
