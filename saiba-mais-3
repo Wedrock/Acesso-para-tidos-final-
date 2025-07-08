@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso para Todos</title>
+    <link rel="shortcut icon" href="image/hosting.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="saiba-mais-2.css">
+</head>
+<body>
+
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.svg" alt="Logo que representa acessibilidade com uma pessoa em cadeira de rodas" class="logo">
+                <h1 class="site-title">Acesso para Todos</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Legislação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Influência</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    
+        <main class="main-container">
+
+            
+
+            <section class="content-section">
+                <div class="text-content">
+                    <h2 class="section-title">Acessibilidade como vantagem competitiva</h2>
+                    <p class="section-text">
+                        Você já considerou que uma única decisão estratégica poderia expandir seu mercado, fortalecer o valor 
+                        da sua marca e, de quebra, melhorar a qualidade do seu produto para todos os clientes? Muitas empresas 
+                        ainda veem a acessibilidade digital como uma obrigação ou um custo. No entanto, as organizações mais 
+                        inovadoras já perceberam que ela é, na verdade, um dos mais inteligentes investimentos para o crescimento 
+                        sustentável
+                    </p>
+                    <section class="banner-section">
+                        <figure class="banner-container">
+                        <img src="image/banner-artigo-3.png" alt="Banner">
+                    </section>
+
+                    <h2 class="section-title">Por que a acessibilidade gera retorno financeiro?</h2>
+                    <p class="section-text">
+                        Ignorar a acessibilidade é, literalmente, deixar dinheiro na mesa. O mercado consumidor formado por pessoas 
+                        com deficiência é vasto e economicamente ativo. No Brasil, o Censo de 2022 do IBGE aponta que são 18,6 milhões 
+                        de pessoas com algum tipo de deficiência. Globalmente, o poder de compra desse grupo, incluindo suas famílias 
+                        e amigos, é estimado em trilhões de dólares anualmente.
+                    </p>
+                    <p class="section-text">
+                        Além disso, um design acessível beneficia um público muito maior: idosos, pessoas com limitações temporárias 
+                        (como um braço quebrado), usuários em conexões lentas de internet e até mesmo novos falantes do idioma. Ao 
+                        remover barreiras, sua empresa não apenas acolhe um novo segmento de mercado, mas também melhora a experiência 
+                        de todos, o que se traduz diretamente em maior engajamento, menores taxas de abandono e, consequentemente, 
+                        mais conversões.
+                    <h2 class="section-title">Construindo uma Marca de Valor</h2>
+                    <p class="section-text">
+                        Os benefícios da acessibilidade vão muito além do financeiro, construindo um capital de marca inestimável. 
+                        Uma empresa que se compromete com a inclusão demonstra responsabilidade social e um genuíno cuidado com seus 
+                        clientes, o que fortalece a lealdade e a percepção positiva no mercado. Essa reputação atrai não só consumidores, 
+                        mas também talentos que desejam trabalhar em organizações com propósito.
+                    </p>
+                    <p class="section-text">
+                        Tecnicamente, as boas práticas de acessibilidade se sobrepõem às de SEO (Otimização para Mecanismos de Busca). 
+                        Estrutura de conteúdo clara, textos alternativos em imagens e transcrições de vídeo são elementos que ajudam os 
+                        leitores de tela e também os robôs do Google, melhorando seu posicionamento nas buscas. Investir em acessibilidade é, 
+                        portanto, investir em inovação, reputação e visibilidade, criando um ciclo virtuoso de crescimento e impacto positivo
+                    </p>
+                </div>
+                </section>
+                </main>
+
+     <section class="artigos">
+        <div class="container-artigos">
+
+
+            <div class="card-wrapper">
+                <div class="card-background"></div>
+                <div class="card-artigo">
+                    <div class="card-imagem">
+                        <img src="image/site-pra-todos.png" alt="Ilustração representando a inclusão digital.">
+                    </div>
+                    <div class="card-texto">
+                        <h2>Site que todas as pessoas possam usar com facilidade</h2>
+                        <a href="saiba-mais-1.html">saiba mais &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-wrapper">
+                <div class="card-background"></div>
+                <div class="card-artigo">
+                     <div class="card-imagem">
+                        <img src="image/inclusão-digital.png" alt="Ilustração representando acessibilidade como vantagem competitiva.">
+                     </div>
+                    <div class="card-texto">
+                        <h2>A importância da inclusão digital</h2>
+                        <a href="saiba-mais-2.html">saiba mais &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img src="image/logo.svg" alt="Logo que representa acessibilidade com uma pessoa em cadeira de rodas" class="footer-logo">
+            <p class="footer-text">Acesso para Todos</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Link para o Facebook">
+                <img src="image/facebook.svg" alt="Ícone do Facebook">
+            </a>
+            <a href="https://br.linkedin.com/" target="_blank" aria-label="Link para o LinkedIn">
+                <img src="image/linkedin.svg" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://x.com/home" target="_blank" aria-label="Link para o X (Twitter)">
+                <img src="image/X.svg" alt="Ícone do X (antigo Twitter)">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Link para o Instagram">
+                <img src="image/Instagram.svg" alt="Ícone do Instagram">
+            </a>
+        </div>
+    </div>
+    <div class="footer-legal">
+        <ul class="footer-nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Artigos</a></li>
+            <li><a href="#">Legislação</a></li>
+            <li><a href="#">Acessibilidade</a></li>
+            <li><a href="#">Notícias</a></li>
+        </ul>
+        <p>&copy; 2024 Acesso para Todos. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
